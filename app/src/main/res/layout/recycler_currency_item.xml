@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cell_curren_height"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/curren_img_size"
+        android:layout_height="@dimen/curren_img_size"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/curren_img_margin_left"
+        android:layout_marginTop="@dimen/curren_img_margin_top"
+        android:background="@color/transparent"
+        />
+
+    <TextView
+        android:id="@+id/curren_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/curren_title_margin_left"
+        android:layout_marginTop="@dimen/curren_title_margin_top"
+        android:textSize="@dimen/curren_title_font_size"
+        android:textColor="@color/font_color"
+        />
+    
+    <EditText
+        android:id="@+id/curren_rate"
+        android:layout_width="@dimen/curren_rate_width"
+        android:layout_height="@dimen/curren_rate_height"
+        android:layout_marginRight="@dimen/curren_rate_margin_right"
+        android:layout_marginTop="@dimen/curren_rate_margin_top"
+        android:layout_alignParentRight="true"
+        android:gravity="right|top"
+        android:inputType="number"
+        android:background="@null"
+        android:textSize="@dimen/curren_rate_font_size"
+        android:textColor="@color/font_color"/>
+
+
+
+</RelativeLayout>
